@@ -11,7 +11,7 @@ This repository focuses on methods of accessing the internet and techniques for 
 * [Table of Contents](docs/_sidebar.md)
 * [Afterword](docs/postscript.md)
 
-** Most of the websites featured in this repo., along with additional resources, are compiled in [w3-goto-world](#) ， The relevant chapters here are even better when paired with the 'Internet Access Solutions' repository!**
+** Most of the websites featured in this book, along with additional resources, are compiled in [ChiseiKoya](https://github.com/Excalibra/ChiseiKoya) ， The relevant chapters here are even better when paired with the 'Internet Access Solutions' repository!**
 
 ## ***update***
 
