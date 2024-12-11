@@ -15,4 +15,4 @@ As this book requires the use of various Jakarta-related products and content, i
 
 This book is dedicated to those who love the internet. That's all...
 
-***[About Me](https://excalibra.github.io/excalibra)***
+***[About Me](https://excalibra.github.io/Excalibra)***
