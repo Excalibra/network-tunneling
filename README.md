@@ -5,6 +5,9 @@
 
 ## ***intro***
 
+![image](https://github.com/user-attachments/assets/246e7454-a38c-4ab4-ac08-9297381e019c)
+
+
 This repository focuses on methods of accessing the internet and techniques for obtaining information. It also provides brief, beginner-friendly configurations for popular and typical software, along with explanations of the underlying principles.
 
 * [Introduction](docs/README.md)
