@@ -45,9 +45,17 @@ Solution: Switch to the DNS servers provided by Yandex, Rostelecom, or MTS, then
 
 Explanation: The DNS provided by your ISP may be sending incorrect root certificates. Switching to a third-party DNS that can provide the correct certificate for the website you're trying to access will resolve the issue.
 
+Russia: 
+
 * Yandex DNS: 77.88.8.8, 77.88.8.1
 * Rostelecom DNS: 195.46.39.39, 195.46.39.40
 * MTS DNS: 217.118.70.6, 217.118.70.7
+
+China: 
+
+* Baidu DNS: 180.76.76.76
+* Alibaba DNS: 223.5.5.5, 223.6.6.6
+* Tencent DNS: 119.29.29.29, 182.254.116.116
 
 ## ***usage***
 
