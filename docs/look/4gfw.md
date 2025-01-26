@@ -1,6 +1,6 @@
 # Understanding the GFW
 
-!> The GFW is essentially a massive high-performance distributed intrusion detection and stability maintenance system, not merely a simple firewall.
+!> The GFW in CN is essentially a massive high-performance distributed intrusion detection and stability maintenance system, not merely a simple firewall.
 
 
 ![GFW](https://github.com/user-attachments/assets/d3960e7d-81d7-4de9-965c-900433d31dea)
