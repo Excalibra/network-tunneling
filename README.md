@@ -55,7 +55,10 @@ The remedy!: Change to one of the reliable public DNS resolvers listed below, th
 ## ***usage***
 
 ### Online Deployment
-
+1. Fork *this book* to your own repository
+2. Modify docs/index.html, changing the `repo` value within `window.$docsify = {}` to that of your own repository
+3. In Settings, locate GitHub Pages and select the `master branch / docs folder`
+4. Visit `https://your-GitHub-username.github.io/fq-book` to observe the result
  
 Required Environment:：[git](https://git-scm.com/)、[node](https://nodejs.org/)； the installation is simple—just click "Next" until the installation is complete.
 
