@@ -100,7 +100,18 @@ git push -u -f origin master
 
 Enter the account credentials and password to upload to one’s own repository and thereby complete the remote update of the GitHub account repository. **For more detailed operational instructions regarding Git commands, please consult the [official Git documentation](https://git-scm.com/book/en/v2)**. In special circumstances, it may be necessary to involve proxy, mirror or shallow-clone settings
 
-
+### Proxy Settings
+#### git proxy
+git client proxy settings
+```
+git config --global http.proxy 'socks5://127.0.0.1:1080' && \
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+```
+git client cancellation of proxy
+```
+git config --global --unset https.proxy
+git config --global --unset http.proxy
+```
 
 
 
