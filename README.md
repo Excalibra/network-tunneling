@@ -98,6 +98,7 @@ git commit -m "test"
 git push -u -f origin master
 ```
 
+Enter the account credentials and password to upload to one’s own repository and thereby complete the remote update of the GitHub account repository. **For more detailed operational instructions regarding Git commands, please consult the [official Git documentation](https://git-scm.com/book/en/v2)**. In special circumstances, it may be necessary to involve proxy, mirror or shallow-clone settings
 
 
 
