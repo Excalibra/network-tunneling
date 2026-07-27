@@ -8,67 +8,95 @@
 ![image](https://github.com/user-attachments/assets/246e7454-a38c-4ab4-ac08-9297381e019c)
 
 
-This repository focuses on methods of accessing the internet and techniques for obtaining information. It also provides brief, beginner-friendly configurations for popular and typical software, along with explanations of the underlying principles.
+This volume concentrates upon methods of accessing the Internet and techniques for obtaining information, whilst also providing concise introductory configurations for relevant popular and representative software, together with explanations of the underlying principles.
 
 * [Introduction](docs/README.md)
 * [Table of Contents](docs/_sidebar.md)
 * [Afterword](docs/postscript.md)
 
-** Most of the websites featured in this book, along with additional resources, are compiled in [ChiseiKoya](https://github.com/Excalibra/ChiseiKoya) ， The relevant chapters here are even better when paired with the 'Internet Access Solutions' repository!**
+** The majority of the example URLs in this book, together with further materials, are collected in [ChiseiKoya](https://github.com/Excalibra/ChiseiKoya). The relevant chapters of the book are best paired with the repository on unrestricted internet access for improved effect! **
 
 ## ***update***
 
-Key Updates to "Comprehensive Guide to Network Proxies and VPN Applications":
+Key points of the update from This Book Can Connect You to the Internet to A Detailed Exposition of Network Proxies and VPN Applications:
 
-* Added a quick-start guide on efficient internet access methods.
-* Expanded sections on various internet access techniques and software configuration.
-* Explanation for resolving the crx_header_invalid error.
-* Solutions for situations where a VPN connects to a server but cannot access any websites or other networks.
-* Fix for issues with setting up a system proxy on Windows.
-* Introduced a built-in Probot with a new "Strategist Mode."
+* Addition of a rapid-access chapter on unrestricted internet techniques
+* Addition of related methods of internet access together with software configuration procedures
+* Explanation of the solution to the crx_header_invalid error
+* Remedies for situations in which a VPN connects to a server yet is unable to access any web pages or other network resources
+* Resolution of the problem whereby Windows cannot set a system proxy
+* Built-in probot robot within the project; addition of Strategist Mode to the method
 
 * <details><summary>Other updates (click to expand!) </summary>
 
-    * Added guidance on virtual phone registration methods.
-    * New methods for creating Google accounts.
-    * Instructions on using the Wayback Machine and finding similar websites.
-    * Leveraging a personal blog as a relay for internet connectivity.
+    * Addition of an explanation of virtual telephone registration schemes
+    * Methods for registering new Google accounts
+    * Webpage time machines and the location of similar sites
+    * Utilisation of a personal blog as an intermediate relay for internet connectivity
 
     </details>
 
-Additionally, unnecessary repetitive content has been streamlined, and images are now hosted via Postimages. The project size has been reduced from 30MB to just 144KB, making it incredibly convenient for online deployment and downloading.
+In addition, unnecessary repetitive content has been streamlined, images are now supported by postimages, and the project size has been reduced from 30 MB to 144 KB, rendering it highly convenient for online deployment and download. Forking of this book is warmly welcomed!
+
 ### ***NET::ERR_CERT_AUTHORITY_INVALID***
 
-The browser may display an additional warning: 'Attackers might be trying to steal your information from xxx.github.io. This server could not prove it is xxx.github.io; your computer's operating system does not trust its security certificate. This could be caused by a misconfiguration or an attacker intercepting your connection.' Attempting to continue may result in a 403 error.
+The browser will additionally warn that an attacker may be attempting to steal your information from xxx.github.io, that this server cannot prove it is xxx.github.io, and that your computer’s operating system does not trust its security certificate. This may result from a configuration error or from an attacker intercepting your connection. Continued access then yields a 403 error.
 
-Solution: Switch to the DNS servers provided by Yandex, Rostelecom, or MTS, then use ipconfig /flushdns to refresh the cache.
+The remedy!: Change to one of the reliable public DNS resolvers listed below, then refresh the cache with ipconfig /flushdns (Windows) or the equivalent command on your operating system. Brief explanation of the cause: the DNS supplied by many internet service providers issues an incorrect or incomplete root certificate; substitution with a trustworthy third-party DNS capable of furnishing the correct certificate for the accessed website resolves the issue. The following options are widely used by international users, including those in Russia and other regions:
 
-Explanation: The DNS provided by your ISP may be sending incorrect root certificates. Switching to a third-party DNS that can provide the correct certificate for the website you're trying to access will resolve the issue.
-
-Russia: 
-
-* Yandex DNS: 77.88.8.8, 77.88.8.1
-* Rostelecom DNS: 195.46.39.39, 195.46.39.40
-* MTS DNS: 217.118.70.6, 217.118.70.7
-
-China: 
-
+* Google DNS: 8.8.8.8, 8.8.4.4
+* Cloudflare DNS: 1.1.1.1, 1.0.0.1
+* Quad9 DNS: 9.9.9.9, 149.112.112.112
+* Yandex DNS (convenient for users in Russia and neighbouring countries): 77.88.8.8, 77.88.8.1
 * Baidu DNS: 180.76.76.76
 * Alibaba DNS: 223.5.5.5, 223.6.6.6
 * Tencent DNS: 119.29.29.29, 182.254.116.116
 
 ## ***usage***
 
-### Local Deployment
+### Online Deployment
 
  
 Required Environment:：[git](https://git-scm.com/)、[node](https://nodejs.org/)； the installation is simple—just click "Next" until the installation is complete.
 
-* Right-click and select`git bash`then enter the command `npm i docsify-cli -g` in the command line.
-* Click`clone or download` to download the `.zip` file and extract it.
-* Navigate to the `network-tunneling-master/docs`directory.
-* Right-click and open`git bash`then enter`docsify init .`
-* Use`docsify serve`to complete the local deployment.
-* Open a browser and go to`localhost:3000`to view the result. 
+* Right-click and select `git bash`, then enter `npm i docsify-cli -g` in the command line
+* Click `clone or download` to download the `.zip` file and extract it
+* Navigate to the `fq-book-master/docs` directory
+* Right-click to open `git bash` and enter `docsify init .`
+* Use `docsify serve` to complete the local deployment
+* Enter `localhost:3000` in the browser to view the result :joy:
 
-<!-- You can use [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf) in combination with [tools.pdf24.org](https://tools.pdf24.org/en/webpage-to-pdf) to generate a PDF of *this repository*. --> 
+For further details, please refer to the [docsify official documentation](https://docsify.js.org/)
+Using [Offline Explorer](https://www.52pojie.cn/thread-790037-1-1.html), the entire webpage content of *this book* may be downloaded locally for offline viewing
+Alternatively, one may convert this book from the docsify format to the gitbook generation format and utilise its built-in commands to produce a PDF of *this book*
+<!--
+One may also employ [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf) in conjunction with [tools.pdf24.org](https://tools.pdf24.org/zh/webpage-to-pdf) to produce a PDF of *this book*
+-->
+
+### Obtaining Updates
+Taking 01user as an example, during local deployment the links to the older version of the images have become invalid, while the new version has adopted support via postimage; it is therefore necessary to upgrade to *this book II*. Obtaining updates is in fact exceedingly straightforward: on the basis of a fork, execute the following commands
+
+```
+git clone https://github.com/your-github-username/fq-book.git
+cd fq-book
+git remote add upstream https://github.com/Excalibra/fq-book.git
+# Should a necessary branch change be required, it is still appropriate to use: git fetch --all
+git fetch upstream
+# Those familiar with Git are advised to use: git pull upstream master --allow-unrelated-histories in order to update by means of code review
+git reset --hard upstream/master
+```
+
+Commit to one’s own repository
+
+```
+git add .
+git commit -m "test"
+# This command is merely convenient for newcomers or in cases of necessity for a forced push; those with some knowledge of Git are still recommended to use: git push -u --force-with-lease origin master
+git push -u -f origin master
+```
+
+
+
+
+
+
