@@ -1,4 +1,4 @@
-# Comprehensive Guide to Network Proxies and VPN Applications
+# A Detailed Exposition of Network Proxies and VPN Applications
 
 |[![cc](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc/4.0/)|[![fq-book](https://img.shields.io/badge/%F0%9F%93%96Excalibra-Network--Tunneling-red.svg?longCache=true&style=flat-square)](https://github.com/Excalibra/network-tunneling)|[![blog](https://img.shields.io/badge/%F0%9F%94%97blog-excalibra-lightgrey.svg?longCache=true&style=flat-square)](https://excalibra.github.io/)|[![outlook](https://img.shields.io/badge/%F0%9F%93%A7hotmail-@Contact-blue.svg?longCache=true&style=flat-square)](mailto:x.calibra@outlook.com)|[![stars](https://img.shields.io/github/stars/Excalibra/network-tunneling.svg?style=social)](https://github.com/Excalibra/network-tunneling/)
 |:-:|:-:|:-:|:-:|:-:|
