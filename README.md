@@ -34,7 +34,7 @@ Key points of the update from This Book Can Connect You to the Internet to A Det
     * Webpage time machines and the location of similar sites
     * Utilisation of a personal blog as an intermediate relay for internet connectivity
 
-    </details>
+</details>
 
 In addition, unnecessary repetitive content has been streamlined, images are now supported by postimages, and the project size has been reduced from 30 MB to 144 KB, rendering it highly convenient for online deployment and download. Forking of this book is warmly welcomed!
 
