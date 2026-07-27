@@ -27,7 +27,7 @@ Key points of the update from This Book Can Connect You to the Internet to A Det
 * Resolution of the problem whereby Windows cannot set a system proxy
 * Built-in probot robot within the project; addition of Strategist Mode to the method
 
-<details><summary>Other updates (click to expand!) </summary>
+  <details><summary>Other updates (click to expand!) </summary>
 
     * Addition of an explanation of virtual telephone registration schemes
     * Methods for registering new Google accounts
