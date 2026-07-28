@@ -1,0 +1,74 @@
+:root {
+    --sidebar-padding: 0 25px;
+    --sidebar-width: 22rem;
+}
+
+.sidebar .search .clear-button {
+    margin: 10px !important;
+    padding: 0 0px !important;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  aside.toc-nav {
+    position: fixed;
+    bottom: 20px;
+    top: auto;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--sidebar-nav-link-color--active, #42b983);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    opacity: 1;
+    z-index: 1000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  aside.toc-nav::before {
+    content: "📑";
+    font-size: 24px;
+    color: white;
+  }
+  
+  aside.toc-nav .page_toc {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    width: 300px;
+    max-height: 400px;
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    overflow-y: auto;
+  }
+  
+  aside.toc-nav.active {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  aside.toc-nav.active::before {
+    display: none;
+  }
+  
+  aside.toc-nav.active .page_toc {
+    display: block;
+    position: static;
+    width: 100%;
+    max-height: 400px;
+    box-shadow: none;
+    padding: 0;
+  }
+}
