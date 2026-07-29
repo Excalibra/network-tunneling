@@ -1,0 +1,9 @@
+# Afterword
+
+Reliable connection to the open internet depends heavily on techniques such as information encryption and traffic obfuscation. At present, wholesale blocking of root domain name servers remains uncommon; yet should technical and political conditions evolve, more isolated network environments could in principle be established.
+
+The contemporary internet is a complex and contested space. Large-scale filtering and monitoring systems—whatever their geographic or institutional origin—employ sophisticated methods of traffic inspection, domain blocking, and content control. For individuals who are not specialists in networking or security, the need to acquire detailed technical knowledge and practical experience in order to maintain basic connectivity can appear disproportionate. Perspectives on this situation differ widely.
+
+Some regard the internet primarily as a medium originally intended for open communication, entertainment and the free exchange of ideas, and therefore view extensive restrictions as an unfortunate distortion of that purpose. Others perceive the same infrastructure as a strategic domain, comparable in importance to other instruments of national or organisational power, and consequently regard control measures as a predictable and sometimes necessary feature of its operation. Still others occupy intermediate positions, recognising both the social value of open access and the security or regulatory concerns that prompt intervention.
+
+These differing assessments are not easily reconciled. What remains clear is that the practical burden of navigating restricted environments falls unevenly, often requiring significant time and technical effort from ordinary users. Whether one interprets this reality as a matter of fairness, of technological inevitability, or of competing priorities, the tools and methods discussed in this book are offered simply as practical means of maintaining connectivity under present conditions.
