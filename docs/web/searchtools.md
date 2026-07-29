@@ -1,8 +1,8 @@
 ## Ask
 
-> The distinctive feature of its search engine is comparatively strong support for semantic search, while also incorporating traditional keyword search; in technical implementation it lies between Google and [W|A](https://zh.wikipedia.org/wiki/Wolfram_Alpha).
+> The distinctive feature of its search engine is comparatively strong support for semantic search, while also incorporating traditional keyword search; in technical implementation it lies between Google and [W|A](https://en.wikipedia.org/wiki/Wolfram_Alpha).
 >
-> After the merger of Yahoo’s and Microsoft’s search businesses, Ask.com ranked as the third-largest public search engine in the United States and the sixth-largest in the world, behind only Google, Bing, Baidu, [NAVER](https://zh.wikipedia.org/wiki/NAVER) and [Yandex](https://zh.wikipedia.org/wiki/Yandex). According to one survey report, Ask.com is the preferred alternative search engine among Google users.
+> After the merger of Yahoo’s and Microsoft’s search businesses, Ask.com ranked as the third-largest public search engine in the United States and the sixth-largest in the world, behind only Google, Bing, Baidu, [NAVER](https://en.wikipedia.org/wiki/Naver) and [Yandex](https://en.wikipedia.org/wiki/Yandex). According to one survey report, Ask.com is the preferred alternative search engine among Google users.
 >
 > —— Excerpt from Wikipedia
 
@@ -30,7 +30,7 @@ Currently the IP has been blocked
 >
 >—— Excerpt from Wikipedia
 
-The principal search source is Bing; the domestic version of Bing returns comparatively heavily censored data
+The principal search source is Bing; local or restricted versions of Bing often return comparatively heavily filtered data
 
 <!-- ![](https://ipfs.io/ipfs/QmNQ5qgTaaT1A4q7cwqYinbvi3nzC4qaA4reEhZfnBaFGa?4.png) -->
 
@@ -50,4 +50,4 @@ The search results are quite good and the data is comprehensive
 
 <img width="1473" height="1068" alt="image" src="https://github.com/user-attachments/assets/e2851a27-e3c5-4080-9845-9631adc89e66" />
 
-Yet whether it will be blocked by large-scale filtering systems in the same manner as [Startpage](https://www.startpage.com/) remains a somewhat uncertain question; perhaps the intention is merely to prevent looking, listening or speaking, while one cheerfully greets rising oil prices under the watchful eye of Big Brother’s [www.baidu.com](https://www.baidu.com)
+Yet whether it will be blocked by large-scale filtering systems in the same manner as [Startpage](https://www.startpage.com/) remains a somewhat uncertain question; perhaps the intention is merely to prevent looking, listening or speaking, while one is left with the official or heavily monitored alternatives under the watchful eye of Big Brother.
